@@ -1,0 +1,69 @@
+// declaring variables
+$bgColor: #171818;
+$txtColor:#6200ff;
+$bdStyle:dotted;
+$myFont: Helvetica, sans-serif;
+$wdt:20%;
+$bdRadius: 5%;
+$pdR:20%;
+
+
+.container{
+    color: $txtColor;
+    background-color: $bgColor;
+    width: 30%;
+    font-family: $myFont;
+    border-radius: $bdRadius;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left: 35%;
+}
+
+.data{
+    label{
+        color: skyblue;
+    }
+
+    input{
+        border-radius: 30px;
+        text-align: left;
+        padding: 5px;
+        width: 250px;
+        float: right;
+        margin-right: 20%;
+    }
+}
+.gender{
+    color: skyblue;
+}
+
+.gender_box{
+    border-radius: 30px;
+    text-align: left;
+    padding: 5px;
+    width: 250px;
+    float: right;
+    margin-right: 22%;
+}
+
+#textareaa{
+    width: 50%;
+    border-radius: $bdRadius;
+    color: rgb(9, 8, 8);
+    margin-left: 25%;
+    width: 60%;
+    border-radius: 20px;
+    text-align: justify;
+    text-indent: 10px;
+}
+
+#button{
+    cursor: pointer;
+    background-color: chartreuse;
+    height: 40px;
+    width: $wdt;
+}
+
+
+
+    

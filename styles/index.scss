@@ -1,0 +1,35 @@
+ // declaring a variable
+$primaryColor: #58e3e3;
+$textColor:black;
+$buttonHeight: 50px;
+$background-color: primaryColor;
+$text-aline: center;
+$buttonHoverColor: #e3ab58;
+
+#btn1{
+    background: $primaryColor;
+}
+#btn2{
+    background: $primaryColor;
+}
+p{
+    color: $textColor;
+}
+
+.header{
+    // CSS for elements in the header class
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    // CSS for buttons inside the header class
+    button{
+        height: $buttonHeight;
+        background-color: $primaryColor;
+        text-align: center;
+
+        &:hover{
+            background:$buttonHoverColor;
+        }
+    }
+}

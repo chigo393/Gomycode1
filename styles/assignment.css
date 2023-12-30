@@ -1,0 +1,53 @@
+.container {
+  color: #6200ff;
+  background-color: #171818;
+  width: 30%;
+  font-family: Helvetica, sans-serif;
+  border-radius: 5%;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-left: 35%;
+}
+
+.data label {
+  color: skyblue;
+}
+.data input {
+  border-radius: 30px;
+  text-align: left;
+  padding: 5px;
+  width: 250px;
+  float: right;
+  margin-right: 20%;
+}
+
+.gender {
+  color: skyblue;
+}
+
+.gender_box {
+  border-radius: 30px;
+  text-align: left;
+  padding: 5px;
+  width: 250px;
+  float: right;
+  margin-right: 22%;
+}
+
+#textareaa {
+  width: 50%;
+  border-radius: 5%;
+  color: rgb(9, 8, 8);
+  margin-left: 25%;
+  width: 60%;
+  border-radius: 20px;
+  text-align: justify;
+  text-indent: 10px;
+}
+
+#button {
+  cursor: pointer;
+  background-color: chartreuse;
+  height: 40px;
+  width: 20%;
+}/*# sourceMappingURL=assignment.css.map */

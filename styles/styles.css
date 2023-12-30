@@ -1,0 +1,25 @@
+#btn1 {
+  background: #58e3e3;
+}
+
+#btn2 {
+  background: #58e3e3;
+}
+
+p {
+  color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header button {
+  height: 50px;
+  background-color: #58e3e3;
+  text-align: center;
+}
+.header button:hover {
+  background: #e3ab58;
+}/*# sourceMappingURL=styles.css.map */

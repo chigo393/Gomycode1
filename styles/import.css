@@ -1,0 +1,39 @@
+@charset "UTF-8";
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header button {
+  height: 100px;
+  background-color: blue;
+  text-align: center;
+}
+.header button:hover {
+  background: rgb(48, 202, 219);
+}
+
+.import {
+  height: 65px;
+  padding: 30px;
+  margin: 20px;
+  background-color: green;
+  border: 5px solid red;
+}
+
+.flexing {
+  display: flex;
+  justify-content: end;
+  align-items:  end;
+}
+
+#btn-2:hover {
+  cursor: pointer;
+  color: blue;
+}
+#btn-2:active {
+  background-color: green;
+}
+#btn-2:visited {
+  background-color: hotpink;
+}/*# sourceMappingURL=import.css.map */

@@ -1,0 +1,37 @@
+.container{
+  background-color: #171818;
+  width: 20%;
+  border-radius: 5%;
+  color: #0000ff;
+  padding: 9px 30px 15px 8px;
+}
+
+#textareaa{
+  background-color: rgb(208, 234, 240);
+  border-style: solid; 
+  border-color: rgb(235, 220, 220);
+  border-radius: 10px;
+  width: 70%;
+  text-align: left;
+}
+.data label{
+  color: #0000ff;
+  display: inline-block;
+  width: 150px;
+}
+
+.data input{
+border-radius: 20px;
+background-color: #d6eded;
+}
+
+.gender{
+  width: 150000px;
+  padding-right: 100px;
+}
+.gender_box{
+  padding-right: 20px;
+  border-radius: 10px;
+  background-color: rgb(214, 237, 237);
+  
+}

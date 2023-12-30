@@ -4,77 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   <link rel="stylesheet" type="text/css" href="styles/assignment.css">
 </head>
-<body>
-    <h2>Creating a form page</h2>
-    <form>
-        <label>First:</label>
-        <input type="text" name="first name" placeholder="Type your name here" />
-        <br>
-        <br>
-        <label>Last:</label>
-        <input type="text" name="Last name" placeholder="Type your Last name here" />
-        <br>
-        <br>
-        <label>Email:</label>
-        <input type="email" name="Email" placeholder="Type your Email ID" />
-        <br>
-        <br>
-        <label>Phone:</label>
-        <input type="number" name="Phone number" placeholder="Type your phone number here" />
-        <br>
-        <br>
-
-        <label>Gender:</label>
-        <select>
-            <option value="Male">Male</option>
-            <option value="Female">Female</option>
-        </select>
-    <br>
-    <br>
-
-
-    <textarea name="message" cols="30" rows="5">
-    My name is Patrick, I have blue eyes and I see the world in 3D
-    </textarea>
-    </form>
-
-    <h4>3 Avengers include?</h4>
-    <input type="checkbox">
-    <label>Hulk</label><br>
-
-    <input type="checkbox">
-    <label>Doctor Strange</label><br>
-
-    <input type="checkbox">
-    <label>Thor</label><br>
-
-    <input type="checkbox">
-    <label>Thenos</label><br>
-
-<form action="Strongest Avenger">
-    <h4>Strongest_Avenger</h4>
-    <input type="radio" name="Marvel" id="Thor" value="Thor" /><label for="Thor">Thor</label><br />
-    <input type="radio" name="Marvel" id="Hulk" value="Hulk"  /><label for="Hulk">Hulk</label><br />
-    <input type="radio" name="Marvel" id="Strange" value="Strange" /><label for="Strange">Strange</label><br />
-    <input type="radio" name="Marvel" id="Vision" value="Vision" /><label for="Vision">Vision</label><br />
-    <br>
-
-    <label for="myfile">Select a file:</label>
-    <input type="file" id="myfile" name="myfile">
-    <br>
-    <br>
-    <br>
-
-  <input type="submit" value="Submit">
-</form> 
-</form>
-<br>
-<br>
-
-<form>
-    
-  </form>
-
-</body>
+    <div class="container">
+        <body>
+            <h2>Creating a form page</h2>
+            <form>
+                <div class="data">
+                    <label>First:</label>
+                    <input type="text" name="first name" placeholder="Type your name here" />
+                    <br>
+                    <br>
+                    <label>Last:</label>
+                    <input type="text" name="Last name" placeholder="Type your Last name here" />
+                    <br>
+                    <br>
+                    <label>Email:</label>
+                    <input type="email" name="Email" placeholder="Type your Email ID" />
+                    <br>
+                    <br>
+                    <label>Phone:</label>
+                    <input type="number" name="Phone number" placeholder="Type your phone number here" />
+                    <br>
+                    <br> 
+                </div>
+        
+                <div>
+                    <label class="gender">Gender:</label>
+                    <select class="gender_box">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    </select>
+                    <br>
+                    <br>
+                    <br>
+        
+        
+                    <textarea id="textareaa" name="message" cols="10" rows="5">
+                     My name is Patrick, I have blue eyes and I see the world in 3D
+                    </textarea>
+                </div>
+            </form> <br><br>
+        
+                    <h4>3 Avengers include?</h4>
+                    <input type="checkbox">
+                    <label>Hulk</label><br>
+        
+                    <input type="checkbox">
+                    <label>Doctor Strange</label><br>
+        
+                    <input type="checkbox">
+                    <label>Thor</label><br>
+                
+                    <input type="checkbox">
+                    <label>Thenos</label><br>
+        
+        <form action="Strongest Avenger">
+                    <h4>Strongest_Avenger</h4>
+                    <input type="radio" name="Marvel" id="Thor" value="Thor" /><label for="Thor">Thor</label><br />
+                    <input type="radio" name="Marvel" id="Hulk" value="Hulk"  /><label for="Hulk">Hulk</label><br />
+                    <input type="radio" name="Marvel" id="Strange" value="Strange" /><label for="Strange">Strange</label><br />
+                    <input type="radio" name="Marvel" id="Vision" value="Vision" /><label for="Vision">Vision</label><br />
+                    <br>
+        
+                    <label for="myfile">Select a file:</label>
+                    <input type="file" id="myfile" name="myfile">
+                    <br>
+                    <br>
+                    <br>
+        
+                    <input id="button" type="submit" value="Submit">
+        </form> 
+        </body>
+    </div>
 </html>

@@ -1,0 +1,31 @@
+.header{
+    // CSS for elements in the header class
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    // CSS for buttons inside the header class
+
+    button{
+        height: $buttonHeight;
+        background-color: $primaryColor;
+        text-align: center;
+
+        &:hover{
+            background:$buttonHoverColor;
+        }
+    }
+}
+
+.import{
+    @include buttonProps(red, green);
+}
+.flexing{
+    @include flexRight();
+}
+#btn-2{
+    @include pseudoclass();
+}
+//  .container{
+//     @include flexCenter();
+//  }
